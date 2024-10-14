@@ -42,11 +42,21 @@ h1 {
 
 }
 
+table {
+  text-align: left;
+}
 ul {
   padding: 1%;
 }
 
 th {
   background-color: #4ea1ff;
+  color: white;
+  width: 500px;
 }
+
+tr:nth-child(odd) {
+  background-color: aqua;
+}
+
 
