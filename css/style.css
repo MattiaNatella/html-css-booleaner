@@ -9,11 +9,18 @@ body {
 header {
  background-color: #4ea1ff;
  background-image: url("../img/pattern.png") ;
- background-size: 40%;
- margin: 0%;
- max-height: 100px;
- height: 100px;
- width: 100%;
+ background-size: 20%;
+ padding-top: 40px;
+ padding-left: 5px;
+} 
+
+img {
+  max-width :100%
+
+}
+
+header .logo {
+  width: 200px;
 }
 
 
@@ -76,4 +83,38 @@ div.box2 {
   height: 160px;
   background-image: url(../img/graph.jpg);
   background-size: cover;
+}
+
+/* CORREZIONE */
+
+/*
+
+Non voglio il margine nel body
+
+body {
+ margin: 0;
+}
+
+l'immagine non deve spaccare il contenitore:
+img {
+  max-width :100%
+
+}
+
+
+header{
+  background-image: url(../img/pattern.jpg);
+  background-color: #4ea1ff ;
+  background-size: 20%;
+  padding-top: 40pz;
+  padding-left: 5px;
+
+
+
+}
+
+dare le dimensioni al contenitore del logo: (The Booleaner)
+
+header .logo {
+  width: 200px
 }
